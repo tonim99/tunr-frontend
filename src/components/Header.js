@@ -1,10 +1,12 @@
 import React from 'react'
+import "../index.css"
 
 const Header = (props) => {
     return (
-        <header>
+        <header >
             <h1>TUNR.</h1>
-            <p>FOR ALL YOUR PLAYLIST NEEDS</p>
+            <p className="tagline">FOR ALL YOUR PLAYLIST NEEDS</p>
+            <hr />
         </header>
         
     )
